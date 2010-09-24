@@ -74,7 +74,7 @@ SMS::Send::SMSDiscount - SMS::Send driver to send via smsdiscount.com
 
 =head1 VERSION
 
-version 1.102480
+version 1.102670
 
 =head1 SYNOPSIS
 

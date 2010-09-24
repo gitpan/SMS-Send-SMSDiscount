@@ -5,6 +5,12 @@ MANIFEST.SKIP
 META.yml
 Makefile.PL
 README
+debian/changelog
+debian/compat
+debian/control
+debian/copyright
+debian/rules
+debian/watch
 dist.ini
 lib/SMS/Send/SMSDiscount.pm
 t/author-critic.t
