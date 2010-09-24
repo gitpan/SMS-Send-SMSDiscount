@@ -26,4 +26,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=SMS-Send-SMSDiscount
   repository: git://github.com/beanz/sms-send-smsdiscount.git
-version: 1.102670
+version: 1.102671

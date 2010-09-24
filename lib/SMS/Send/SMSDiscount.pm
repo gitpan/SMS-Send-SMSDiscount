@@ -1,11 +1,14 @@
+use strict;
+use warnings;
 package SMS::Send::SMSDiscount;
+BEGIN {
+  $SMS::Send::SMSDiscount::VERSION = '1.102671';
+}
 
 # ABSTRACT: SMS::Send driver to send via smsdiscount.com
 
 
 use 5.006;
-use strict;
-use warnings;
 use SMS::Send::Driver;
 use LWP::UserAgent;
 use HTTP::Request::Common qw(POST);
@@ -74,7 +77,7 @@ SMS::Send::SMSDiscount - SMS::Send driver to send via smsdiscount.com
 
 =head1 VERSION
 
-version 1.102670
+version 1.102671
 
 =head1 SYNOPSIS
 
