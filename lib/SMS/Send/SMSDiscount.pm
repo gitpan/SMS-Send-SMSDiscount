@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package SMS::Send::SMSDiscount;
 BEGIN {
-  $SMS::Send::SMSDiscount::VERSION = '1.102671';
+  $SMS::Send::SMSDiscount::VERSION = '1.111780';
 }
 
 # ABSTRACT: SMS::Send driver to send via smsdiscount.com
@@ -77,7 +77,7 @@ SMS::Send::SMSDiscount - SMS::Send driver to send via smsdiscount.com
 
 =head1 VERSION
 
-version 1.102671
+version 1.111780
 
 =head1 SYNOPSIS
 
@@ -100,6 +100,9 @@ Software (http://www.smsdiscount.com/) service.
 =head1 METHODS
 
 =head2 CONSTRUCTOR
+
+This constructor should not be called directly.  See L<SMS::Send> for
+details.
 
 =head1 SEE ALSO
 

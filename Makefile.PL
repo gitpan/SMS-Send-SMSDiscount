@@ -13,8 +13,9 @@ my %WriteMakefileArgs = (
   'AUTHOR' => 'Mark Hindess <soft-cpan@temporalanomaly.com>',
   'BUILD_REQUIRES' => {
     'English' => '0',
-    'IO::Select' => '0',
-    'IO::Socket::INET' => '0',
+    'LWP::Protocol::PSGI' => '0',
+    'LWP::Protocol::https' => '0',
+    'Plack::Request' => '0',
     'SMS::Send' => '0',
     'Test::More' => '0'
   },
@@ -31,7 +32,7 @@ my %WriteMakefileArgs = (
     'SMS::Send::Driver' => '0',
     'URI::Escape' => '0'
   },
-  'VERSION' => '1.102671',
+  'VERSION' => '1.111780',
   'test' => {
     'TESTS' => 't/*.t'
   }
